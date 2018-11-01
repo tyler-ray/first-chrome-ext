@@ -5,8 +5,7 @@
     "content_scripts":[
         {
             "matches":[
-                "http://jtylerray.com/*",
-                "https://jtylerray.com/*"
+                "<all_urls>"
             ],
             "js":["content.js"]
         }
